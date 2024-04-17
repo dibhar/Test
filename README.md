@@ -1,3 +1,1 @@
-This is a test repo
-
-add jd
+This is a test repo.
