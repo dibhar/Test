@@ -1,0 +1,14 @@
+[Unit]
+Description=This is demo service file.
+After=servicename
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/test_exe servicename system 
+
+
+[Install]
+WantedBy=multi-user.target
+
+
+
