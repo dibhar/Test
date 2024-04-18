@@ -1,6 +1,9 @@
 [Unit]
 Description=Service to log the vera application logs.
 After=stemd
+User=ldlogger
+Group=amazon-logger
+AmbientCapabilities=CAP_MAC_OVERRIDE CAP_SYS_ADMIN CAP_NET_RAW
 
 [Service]
 Type=oneshot
