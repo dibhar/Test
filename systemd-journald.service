@@ -1,0 +1,14 @@
+[Unit]
+Description=Service to log the vera application logs.
+After=stemd
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/test_exe servicename system 
+
+
+[Install]
+WantedBy=multi-user.target
+
+
+
